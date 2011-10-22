@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+    <form action="{{ url_for('index') }}" method=post class=add-url>
+      <dl>
+        <dt>Long Url:
+        <dd><input type=text size=120 name=long_url>
+        <dd><input type=submit value=Shorten>
+      </dl>
+    </form>
+{% endblock %}
