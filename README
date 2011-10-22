@@ -1,0 +1,30 @@
+
+                         / Flaskly /
+
+                 a minimal url shortner application
+
+
+    ~ What is Flaskly?
+
+      A sqlite powered url shortner application. It
+      is loosely based on the other example applications
+      from flask.
+      
+
+    ~ How do I use it?
+
+      1. edit the configuration in the flaskly.py file or
+         export an FLASKLY_SETTINGS environment variable
+         pointing to a configuration file.
+
+      2. fire up a python shell and run this:
+
+         >>> from flaskr import init_db; init_db()
+
+      3. now you can run the flaskly.py file with your
+         python interpreter and the application will
+         greet you on http://localhost:5000/
+
+    ~ Is it tested?
+
+      No.
